@@ -1,4 +1,4 @@
-# Hello Test Crew Team!
+# Hello Automation Team!
 ### for any future user, just adding tips/steps for setting the project on your device
 Here we go :
 1. it's important to have the SSH key sat up and added to your device,
