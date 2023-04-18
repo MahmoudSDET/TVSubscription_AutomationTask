@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-18T09:57:20Z" name="Suite" finished-at="2023-04-18T09:57:51Z" duration-ms="30302">
+    <groups>
+    </groups>
+    <test started-at="2023-04-18T09:57:20Z" name="Test" finished-at="2023-04-18T09:57:51Z" duration-ms="30302">
+      <class name="tests.web_tests.TVSubscription_Tests">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067]" started-at="2023-04-18T09:57:20Z" name="initDriver" finished-at="2023-04-18T09:57:32Z" duration-ms="11998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method is-config="true" signature="startReport()[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067]" started-at="2023-04-18T09:57:32Z" name="startReport" finished-at="2023-04-18T09:57:33Z" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="checkTheClasses_SubscriptionTests(org.taf.data_models.TestData)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067]" started-at="2023-04-18T09:57:34Z" name="checkTheClasses_SubscriptionTests" description="Check the TV subscription of Country" data-provider="getTestDataExcelSheet" finished-at="2023-04-18T09:57:36Z" duration-ms="1206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestData(country=KSA, planType=LITE, price=15.0, currency=SAR)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTheClasses_SubscriptionTests -->
+        <test-method is-config="true" signature="afterRunningMethod(org.testng.ITestResult)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067]" started-at="2023-04-18T09:57:36Z" name="afterRunningMethod" finished-at="2023-04-18T09:57:36Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkTheClasses_SubscriptionTests status=SUCCESS method=TVSubscription_Tests.checkTheClasses_SubscriptionTests(org.taf.data_models.TestData)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRunningMethod -->
+        <test-method signature="checkTheClasses_SubscriptionTests(org.taf.data_models.TestData)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067]" started-at="2023-04-18T09:57:36Z" name="checkTheClasses_SubscriptionTests" description="Check the TV subscription of Country" data-provider="getTestDataExcelSheet" finished-at="2023-04-18T09:57:37Z" duration-ms="1100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestData(country=KSA, planType=CLASSIC, price=25.0, currency=SAR)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTheClasses_SubscriptionTests -->
+        <test-method is-config="true" signature="afterRunningMethod(org.testng.ITestResult)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067]" started-at="2023-04-18T09:57:37Z" name="afterRunningMethod" finished-at="2023-04-18T09:57:37Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkTheClasses_SubscriptionTests status=SUCCESS method=TVSubscription_Tests.checkTheClasses_SubscriptionTests(org.taf.data_models.TestData)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRunningMethod -->
+        <test-method signature="checkTheClasses_SubscriptionTests(org.taf.data_models.TestData)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067]" started-at="2023-04-18T09:57:37Z" name="checkTheClasses_SubscriptionTests" description="Check the TV subscription of Country" data-provider="getTestDataExcelSheet" finished-at="2023-04-18T09:57:38Z" duration-ms="958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestData(country=KSA, planType=PREMIUM, price=60.0, currency=SAR)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTheClasses_SubscriptionTests -->
+        <test-method signature="checkTheClasses_SubscriptionTests(org.taf.data_models.TestData)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067]" started-at="2023-04-18T09:57:38Z" name="checkTheClasses_SubscriptionTests" description="Check the TV subscription of Country" data-provider="getTestDataExcelSheet" finished-at="2023-04-18T09:57:42Z" duration-ms="4366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestData(country=Bahrain, planType=LITE, price=2.0, currency=BHD)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTheClasses_SubscriptionTests -->
+        <test-method is-config="true" signature="afterRunningMethod(org.testng.ITestResult)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067]" started-at="2023-04-18T09:57:38Z" name="afterRunningMethod" finished-at="2023-04-18T09:57:38Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkTheClasses_SubscriptionTests status=SUCCESS method=TVSubscription_Tests.checkTheClasses_SubscriptionTests(org.taf.data_models.TestData)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRunningMethod -->
+        <test-method is-config="true" signature="afterRunningMethod(org.testng.ITestResult)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067]" started-at="2023-04-18T09:57:42Z" name="afterRunningMethod" finished-at="2023-04-18T09:57:42Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkTheClasses_SubscriptionTests status=SUCCESS method=TVSubscription_Tests.checkTheClasses_SubscriptionTests(org.taf.data_models.TestData)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRunningMethod -->
+        <test-method signature="checkTheClasses_SubscriptionTests(org.taf.data_models.TestData)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067]" started-at="2023-04-18T09:57:42Z" name="checkTheClasses_SubscriptionTests" description="Check the TV subscription of Country" data-provider="getTestDataExcelSheet" finished-at="2023-04-18T09:57:43Z" duration-ms="1082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestData(country=Bahrain, planType=CLASSIC, price=3.0, currency=BHD)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTheClasses_SubscriptionTests -->
+        <test-method is-config="true" signature="afterRunningMethod(org.testng.ITestResult)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067]" started-at="2023-04-18T09:57:43Z" name="afterRunningMethod" finished-at="2023-04-18T09:57:43Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkTheClasses_SubscriptionTests status=SUCCESS method=TVSubscription_Tests.checkTheClasses_SubscriptionTests(org.taf.data_models.TestData)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRunningMethod -->
+        <test-method signature="checkTheClasses_SubscriptionTests(org.taf.data_models.TestData)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067]" started-at="2023-04-18T09:57:43Z" name="checkTheClasses_SubscriptionTests" description="Check the TV subscription of Country" data-provider="getTestDataExcelSheet" finished-at="2023-04-18T09:57:44Z" duration-ms="575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestData(country=Bahrain, planType=PREMIUM, price=6.0, currency=BHD)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTheClasses_SubscriptionTests -->
+        <test-method signature="checkTheClasses_SubscriptionTests(org.taf.data_models.TestData)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067]" started-at="2023-04-18T09:57:44Z" name="checkTheClasses_SubscriptionTests" description="Check the TV subscription of Country" data-provider="getTestDataExcelSheet" finished-at="2023-04-18T09:57:49Z" duration-ms="5347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestData(country=Kuwait, planType=LITE, price=1.2, currency=KWD)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTheClasses_SubscriptionTests -->
+        <test-method is-config="true" signature="afterRunningMethod(org.testng.ITestResult)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067]" started-at="2023-04-18T09:57:44Z" name="afterRunningMethod" finished-at="2023-04-18T09:57:44Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkTheClasses_SubscriptionTests status=SUCCESS method=TVSubscription_Tests.checkTheClasses_SubscriptionTests(org.taf.data_models.TestData)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRunningMethod -->
+        <test-method is-config="true" signature="afterRunningMethod(org.testng.ITestResult)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067]" started-at="2023-04-18T09:57:49Z" name="afterRunningMethod" finished-at="2023-04-18T09:57:49Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkTheClasses_SubscriptionTests status=SUCCESS method=TVSubscription_Tests.checkTheClasses_SubscriptionTests(org.taf.data_models.TestData)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRunningMethod -->
+        <test-method signature="checkTheClasses_SubscriptionTests(org.taf.data_models.TestData)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067]" started-at="2023-04-18T09:57:49Z" name="checkTheClasses_SubscriptionTests" description="Check the TV subscription of Country" data-provider="getTestDataExcelSheet" finished-at="2023-04-18T09:57:49Z" duration-ms="470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestData(country=Kuwait, planType=CLASSIC, price=2.5, currency=KWD)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTheClasses_SubscriptionTests -->
+        <test-method is-config="true" signature="afterRunningMethod(org.testng.ITestResult)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067]" started-at="2023-04-18T09:57:49Z" name="afterRunningMethod" finished-at="2023-04-18T09:57:49Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkTheClasses_SubscriptionTests status=SUCCESS method=TVSubscription_Tests.checkTheClasses_SubscriptionTests(org.taf.data_models.TestData)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRunningMethod -->
+        <test-method signature="checkTheClasses_SubscriptionTests(org.taf.data_models.TestData)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067]" started-at="2023-04-18T09:57:49Z" name="checkTheClasses_SubscriptionTests" description="Check the TV subscription of Country" data-provider="getTestDataExcelSheet" finished-at="2023-04-18T09:57:50Z" duration-ms="438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestData(country=Kuwait, planType=PREMIUM, price=4.8, currency=KWD)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTheClasses_SubscriptionTests -->
+        <test-method is-config="true" signature="afterRunningMethod(org.testng.ITestResult)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067]" started-at="2023-04-18T09:57:50Z" name="afterRunningMethod" finished-at="2023-04-18T09:57:50Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkTheClasses_SubscriptionTests status=SUCCESS method=TVSubscription_Tests.checkTheClasses_SubscriptionTests(org.taf.data_models.TestData)[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRunningMethod -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067]" started-at="2023-04-18T09:57:50Z" name="flushReport" finished-at="2023-04-18T09:57:50Z" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:tests.web_tests.TVSubscription_Tests@46d59067]" started-at="2023-04-18T09:57:50Z" name="tearDownDriver" finished-at="2023-04-18T09:57:51Z" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- tests.web_tests.TVSubscription_Tests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
